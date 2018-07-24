@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30857bbbc47b92e4a98186fa2698fb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 3.56
+  walkSpeed: 2.12
   jumpForce: 2.12
 --- !u!95 &437966662
 Animator:
@@ -543,11 +543,11 @@ Tilemap:
     e33: 1
   m_TileRefreshArray:
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
 --- !u!1 &901082692
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +629,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1020118302}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f4d2306af3f131d4f9b50bfe1da9852e, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2210,11 +2210,11 @@ Tilemap:
     e33: 1
   m_TileRefreshArray:
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 1
+    m_DirtyIndex: 0
 --- !u!1001 &1318862801
 Prefab:
   m_ObjectHideFlags: 0

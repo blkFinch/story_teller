@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
 	[Range(2,3)]
 	public float jumpForce = 2.12f;
 
+
 	private Rigidbody2D rb2D;
 	private Animator animator;
 

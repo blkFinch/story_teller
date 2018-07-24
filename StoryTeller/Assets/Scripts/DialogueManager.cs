@@ -23,21 +23,21 @@ public class DialogueManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetKeyDown(KeyCode.DownArrow)){
+		if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("RVertical") < -0.2 ){
 			if( activeChoiceIndex < totalChoices -1 ){ 
 				activeChoiceIndex++;
 				HighlightChoice(activeChoiceIndex);
 			 }
 		}
 
-		if(Input.GetKeyDown(KeyCode.UpArrow)){
+		if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("RVertical") > 0.2 ){
 			if( activeChoiceIndex > 0 ){ 
 				activeChoiceIndex--;
 				HighlightChoice(activeChoiceIndex);
 			 }
 		}
 
-		if(Input.GetKeyDown("space") || Input.GetKeyDown("return")){
+		if(Input.GetKeyDown("space") || Input.GetKeyDown("return") || Input.GetButtonDown("Fire1")){
 			ink.ChoosePath(activeChoiceIndex);
 		}
 

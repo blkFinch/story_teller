@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"InputGetbut",
+				"Input.GetButtonDown(buttonName)"
+			],
+			[
 				"Triggerenter2",
 				"MonoBehaviour.OnTriggerEnter2D(other)"
 			],
@@ -167,43 +171,7 @@
 			"file": "Assets/Scripts/Player.cs",
 			"settings":
 			{
-				"buffer_size": 1847,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/TalkingObject.cs",
-			"settings":
-			{
-				"buffer_size": 465,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/Assets/GameManager.cs",
-			"settings":
-			{
-				"buffer_size": 391,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/StoryTeller.ink",
-			"settings":
-			{
-				"buffer_size": 144,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/G/Unity/PinkMan/Assets/_Scripts/ButtonNavigation.cs",
-			"settings":
-			{
-				"buffer_size": 755,
+				"buffer_size": 1848,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -221,7 +189,7 @@
 			"file": "Assets/Scripts/DialogueManager.cs",
 			"settings":
 			{
-				"buffer_size": 1665,
+				"buffer_size": 1772,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -254,6 +222,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"omnishar",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"omn",
+				"OmniSharpSublime: Add New Interface"
+			],
+			[
+				"omni",
+				"OmniSharpSublime: Reload Solution"
+			],
 			[
 				"open",
 				"PackageResourceViewer: Open Resource"
@@ -359,10 +339,20 @@
 	},
 	"expanded_folders":
 	[
-		"/E/DeepRepos/StoryTeller/Assets/Scripts"
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts"
 	],
 	"file_history":
 	[
+		"/E/DeepRepos/story_teller/StoryTeller/StoryTeller.sublime-project",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/DialogueManager.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/stelelr.sublime-project",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/InkManager.cs",
+		"/G/Unity/PinkMan/Assets/_Scripts/ButtonNavigation.cs",
+		"/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/twinstickstp.sublime-project",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/StoryTeller.ink",
+		"/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/Assets/GameManager.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/TalkingObject.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/Player.cs",
 		"/G/Unity/Tales From The Darkside/Assets/_scripts/MainMenu.cs",
 		"/G/Unity/PinkMan/Assets/InkScripts/YellowMan.ink",
 		"/G/Unity/PinkMan/Assets/_Scripts/TalkingObject.cs",
@@ -379,7 +369,6 @@
 		"/E/DeepRepos/StoryTeller/.gitignore",
 		"/E/DeepRepos/udemyRpg/UdemyRPG/Assets/CameraFollow.cs",
 		"/G/Unity/PinkMan/Assets/_Scripts/Coin.cs",
-		"/G/Unity/PinkMan/Assets/_Scripts/ButtonNavigation.cs",
 		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/Theme - Eightlime/Eightlime Dark.sublime-theme",
 		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/Theme - Rainbow/Theme - Rainbow.sublime-settings",
@@ -493,7 +482,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -502,87 +491,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1847,
+						"buffer_size": 1848,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1257,
-								1257
+								269,
+								269
 							]
 						],
 						"settings":
 						{
-							"SL.31.region_keys":
-							[
-							],
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 312.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Assets/Scripts/TalkingObject.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								382,
-								382
-							]
-						],
-						"settings":
-						{
-							"SL.32.region_keys":
-							[
-							],
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/Assets/GameManager.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								288
-							]
-						],
-						"settings":
-						{
-							"SL.33.region_keys":
-							[
-							],
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -592,44 +515,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "Assets/Scripts/StoryTeller.ink",
+					"buffer": 1,
+					"file": "Assets/Scripts/InkManager.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								42,
-								42
-							]
-						],
-						"settings":
-						{
-							"SL.34.region_keys":
-							[
-							],
-							"_anf_new": "",
-							"syntax": "Packages/User/ink.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/G/Unity/PinkMan/Assets/_Scripts/ButtonNavigation.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 755,
+						"buffer_size": 1736,
 						"regions":
 						{
 						},
@@ -642,9 +533,6 @@
 						],
 						"settings":
 						{
-							"SL.35.region_keys":
-							[
-							],
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -652,86 +540,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "Assets/Scripts/InkManager.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								779,
-								779
-							]
-						],
-						"settings":
-						{
-							"SL.14.region_keys":
-							[
-							],
-							"SL.21.region_keys":
-							[
-							],
-							"SL.36.region_keys":
-							[
-							],
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 156.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 2,
 					"file": "Assets/Scripts/DialogueManager.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1665,
+						"buffer_size": 1772,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								944,
-								944
+								356,
+								356
 							]
 						],
 						"settings":
 						{
-							"SL.18.region_keys":
-							[
-							],
-							"SL.37.region_keys":
-							[
-							],
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 195.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -754,18 +591,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.466666666667,
 			1.0
 		],
 		"rows":
@@ -796,7 +626,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "stelelr.sublime-project",
+	"project": "StoryTeller.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -861,12 +691,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"G:\\Unity\\Learn Unity\\TwinSticks\\TwinSticksGame\\twinstickstp.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -884,8 +718,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 203.0,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
