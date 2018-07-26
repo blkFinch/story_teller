@@ -21,3 +21,13 @@
 		Rusty! Officer Rusty. But everyone 'round here just calls me Russ. I just wanted to introduce myself- seein as you'll be here for a while.
 	->DONE
 ->END
+
+=== coin_flip
+    I'll flip a coin! Heads or tails?
+    +   [heads!] ->flip
+    +   [tails] ->flip 
+
+    =flip 
+    {~ Heads | Tails } 
+    ->DONE
+->END
