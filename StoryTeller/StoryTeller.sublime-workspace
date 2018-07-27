@@ -339,7 +339,7 @@
 	},
 	"expanded_folders":
 	[
-		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts"
+		"/Users/Finch/Unity/story_teller/StoryTeller/Assets\\Scripts"
 	],
 	"file_history":
 	[
@@ -447,7 +447,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -562,7 +562,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -576,7 +577,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -629,7 +630,7 @@
 	"project": "StoryTeller.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
