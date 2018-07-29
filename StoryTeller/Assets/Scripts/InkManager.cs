@@ -14,13 +14,25 @@ public class InkManager : MonoBehaviour {
 	private GameObject textDisplay;
 
 	private DialogueManager dialogueManager;
+	private LevelManager levelManager;
 
 	string[] choices;
 	// Use this for initialization
 	void Start () {
 		story = new Story(inkJSONasset.text);
 		dialogueManager = FindObjectOfType<DialogueManager>();
+		levelManager = FindObjectOfType<LevelManager>();
+		BindFunctions();
 		RefreshView();
+	}
+
+	//TODO: optimize so that only needed functions bind
+	//maybe make an array of functions and can call externally to bind
+	//use this to bind all functions for now
+	void BindFunctions(){
+		story.BindExternalFunction("load_scene",(string scene) =>{
+			levelManager.LoadLevel(scene);
+		});
 	}
 	
 	void RefreshView(){
