@@ -1,3 +1,5 @@
+EXTERNAL load_scene(scene)
+
 === Intro
 	Hello pink man, and welcome!
 	*	[hello. who are you?] ->name
@@ -19,7 +21,22 @@
 
 	= meet_rusty
 		Rusty! Officer Rusty. But everyone 'round here just calls me Russ. I just wanted to introduce myself- seein as you'll be here for a while.
+        *   [uh huh...] -> cabin
 	->DONE
+
+    = cabin
+        Nice little spot up here. Glad someone is making use of it. Mrs. Dalia moved away after the flood and it's just been sitting empty since.
+        *   [I really need to be getting to work...] ->goodbye
+        *   [...flood?] ->flood
+    ->DONE
+
+    = flood
+        Text about flood!!!
+    ->DONE
+
+    = goodbye
+        Alright, I get it, gotta get it done.
+    ->DONE
 ->END
 
 === coin_flip
@@ -30,4 +47,15 @@
     =flip 
     {~ Heads | Tails } 
     ->DONE
+->END
+
+=== gotomap
+    you want to go to the map?
+    + [yeah...] -> map
+    + [naw...]
+    ->DONE
+
+    = map
+    {load_scene("Map")}
+    ->DONE 
 ->END
