@@ -23,3 +23,7 @@ sysinfo.txt
 StoryTeller/stelelr\.sublime-project
 
 StoryTeller/Assets/Plugins/Ink/Inklecate/inklecate_mac
+
+*.sublime-workspace
+
+StoryTeller/st-mac\.sublime-project
