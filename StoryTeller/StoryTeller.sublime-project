@@ -3,11 +3,11 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "Assets\\Scripts",
+			"path": "./Assets/Scripts",
 			"file_exclude_patterns":[ "*.dll", "*.meta"]
-		},
-		{
-		"solution_file": "./StoryTeller.sln"
 		}
-	]
+	],
+		
+	"solution_file": "./StoryTeller.sln"	
+	
 }

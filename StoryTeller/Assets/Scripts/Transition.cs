@@ -6,6 +6,7 @@ public class Transition : MonoBehaviour {
 
 	private LevelManager lm;
 
+	public string levelToLoad;
 	// Use this for initialization
 	void Start () {
 		lm = Object.FindObjectOfType<LevelManager>();
@@ -13,7 +14,7 @@ public class Transition : MonoBehaviour {
 	
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Player"){
-			lm.LoadLevel("Map");
+			lm.LoadLevel(levelToLoad);
 		}
 	}
 }

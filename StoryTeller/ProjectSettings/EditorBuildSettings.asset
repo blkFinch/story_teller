@@ -14,3 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MovementTest.unity
     guid: 56b07b7f62785aa41bc35e2990e1ecc9
+  - enabled: 1
+    path: Assets/Scenes/BusStop.unity
+    guid: 8f2af312d9bbde44c8f0a68e08708206

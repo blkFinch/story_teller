@@ -88,7 +88,7 @@ public class Player : MonoBehaviour {
 			isPlaying = false;
 		}
 
-		if(isGrounded && Input.GetKey("space")){
+		if(isGrounded && Input.GetButtonDown("Jump")){
 			Jump();
 		}
 

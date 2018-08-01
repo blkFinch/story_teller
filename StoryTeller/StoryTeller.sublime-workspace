@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"act",
+				"activeChoices.Length"
+			],
+			[
 				"InputGetbut",
 				"Input.GetButtonDown(buttonName)"
 			],
@@ -168,30 +172,30 @@
 	"buffers":
 	[
 		{
+			"file": "Assets/Scripts/LevelManager.cs",
+			"settings":
+			{
+				"buffer_size": 399,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "Assets/Scripts/Player.cs",
 			"settings":
 			{
-				"buffer_size": 1848,
+				"buffer_size": 1854,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Assets/Scripts/InkManager.cs",
+			"file": "StoryTeller.sublime-project",
 			"settings":
 			{
-				"buffer_size": 1736,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Assets/Scripts/DialogueManager.cs",
-			"settings":
-			{
-				"buffer_size": 1772,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
+				"buffer_size": 182,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -223,16 +227,28 @@
 		"selected_items":
 		[
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"omni",
+				"OmniSharpSublime: Build"
+			],
+			[
+				"reload",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
 				"omnishar",
 				"OmniSharpSublime: Reload Solution"
 			],
 			[
 				"omn",
 				"OmniSharpSublime: Add New Interface"
-			],
-			[
-				"omni",
-				"OmniSharpSublime: Reload Solution"
 			],
 			[
 				"open",
@@ -243,15 +259,7 @@
 				"PackageResourceViewer: Open Resource"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"remove",
 				"Package Control: Remove Package"
 			],
 			[
@@ -343,16 +351,21 @@
 	],
 	"file_history":
 	[
-		"/E/DeepRepos/story_teller/StoryTeller/StoryTeller.sublime-project",
-		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/DialogueManager.cs",
-		"/E/DeepRepos/story_teller/StoryTeller/stelelr.sublime-project",
-		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/InkManager.cs",
-		"/G/Unity/PinkMan/Assets/_Scripts/ButtonNavigation.cs",
 		"/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/twinstickstp.sublime-project",
+		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/TestBlocking.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/DialogueManager.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/test.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/InkManager.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/LevelManager.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/Player.cs",
+		"/E/DeepRepos/story_teller/StoryTeller/StoryTeller.sublime-project",
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/StoryTeller.ink",
+		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/E/DeepRepos/story_teller/StoryTeller/stelelr.sublime-project",
+		"/G/Unity/PinkMan/Assets/_Scripts/ButtonNavigation.cs",
 		"/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/Assets/GameManager.cs",
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/TalkingObject.cs",
-		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/Player.cs",
 		"/G/Unity/Tales From The Darkside/Assets/_scripts/MainMenu.cs",
 		"/G/Unity/PinkMan/Assets/InkScripts/YellowMan.ink",
 		"/G/Unity/PinkMan/Assets/_Scripts/TalkingObject.cs",
@@ -482,24 +495,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Scripts/Player.cs",
+					"file": "Assets/Scripts/LevelManager.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1848,
+						"buffer_size": 399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								399,
+								399
 							]
 						],
 						"settings":
@@ -511,16 +524,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Assets/Scripts/InkManager.cs",
+					"file": "Assets/Scripts/Player.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1736,
+						"buffer_size": 1854,
 						"regions":
 						{
 						},
@@ -540,35 +553,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Assets/Scripts/DialogueManager.cs",
+					"file": "StoryTeller.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1772,
+						"buffer_size": 182,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								356,
-								356
+								176,
+								176
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

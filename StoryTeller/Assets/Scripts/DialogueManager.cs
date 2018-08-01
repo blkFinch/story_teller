@@ -38,7 +38,7 @@ public class DialogueManager : MonoBehaviour {
 		}
 
 		if(Input.GetKeyDown("space") || Input.GetKeyDown("return") || Input.GetButtonDown("Fire1")){
-			ink.ChoosePath(activeChoiceIndex);
+			if(totalChoices > 0 ){ ink.ChoosePath(activeChoiceIndex); }
 		}
 
 		
