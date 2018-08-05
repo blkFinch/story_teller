@@ -181,21 +181,30 @@
 			}
 		},
 		{
+			"file": "Assets/Scripts/DialogueManager.cs",
+			"settings":
+			{
+				"buffer_size": 1797,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Scripts/Transition.cs",
+			"settings":
+			{
+				"buffer_size": 402,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "Assets/Scripts/Player.cs",
 			"settings":
 			{
 				"buffer_size": 1854,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "StoryTeller.sublime-project",
-			"settings":
-			{
-				"buffer_size": 182,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -351,6 +360,8 @@
 	],
 	"file_history":
 	[
+		"/E/DeepRepos/story_teller/StoryTeller/StoryTeller.sublime-project",
+		"/E/PixelVision/Workspace/Sandbox/code.lua",
 		"/G/Unity/Learn Unity/TwinSticks/TwinSticksGame/twinstickstp.sublime-project",
 		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/TestBlocking.cs",
@@ -359,7 +370,6 @@
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/InkManager.cs",
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/LevelManager.cs",
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/Player.cs",
-		"/E/DeepRepos/story_teller/StoryTeller/StoryTeller.sublime-project",
 		"/E/DeepRepos/story_teller/StoryTeller/Assets/Scripts/StoryTeller.ink",
 		"/C/Users/galen/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
 		"/E/DeepRepos/story_teller/StoryTeller/stelelr.sublime-project",
@@ -377,7 +387,6 @@
 		"/G/Unity/PinkMan/Assets/_Scripts/DialogueChoice.cs",
 		"/E/DeepRepos/StoryTeller/stelelr.sublime-project",
 		"/G/Unity/PinkMan/pinkman_new.sublime-project",
-		"/E/PixelVision/Workspace/Sandbox/code.lua",
 		"/E/DeepRepos/PixelVision/Workspace/Sandbox/code.lua",
 		"/E/DeepRepos/StoryTeller/.gitignore",
 		"/E/DeepRepos/udemyRpg/UdemyRPG/Assets/CameraFollow.cs",
@@ -460,7 +469,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -495,7 +504,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -524,11 +533,86 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "Assets/Scripts/DialogueManager.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Using directive is not used by code and can be removed safely.",
+								"1111,1117": "Parameter can be IComparable",
+								"1571,1572": "Type cast is redundant",
+								"172,184": "Name should have prefix '_'. (Rule 'Fields').",
+								"201,207": "Name should have prefix '_'. (Rule 'Fields').",
+								"26,31": "Using directive is not used by code and can be removed safely."
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 65.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Scripts/Transition.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								277
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"132,144": "'LevelManager' is not a known identifier",
+								"258,270": "'LevelManager' is not a known identifier",
+								"273,274": "Cannot convert from ? to [UnknownType LevelManager]",
+								"369,378": "'LevelManager' does not contain a definition for 'LoadLevel'",
+								"391,392": "'LevelManager' does not contain a definition for 'LoadLevel'"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "Assets/Scripts/Player.cs",
 					"semi_transient": false,
 					"settings":
@@ -553,35 +637,6 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "StoryTeller.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				}
@@ -590,7 +645,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -637,13 +692,13 @@
 	},
 	"output.variable_get":
 	{
-		"height": 0.0
+		"height": 92.0
 	},
 	"pinned_build_system": "",
 	"project": "StoryTeller.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
